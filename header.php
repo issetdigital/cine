@@ -62,21 +62,22 @@
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="" title="" class="img_responsiva"/>
             </div><!--(header_topo_logo)-->
         </div><!--(header_topo)-->
-        
+
             <nav class="header_menu">
-                
+
                 <ul class="resp_menu">
-                    <li><a href="#" title="">HOME</a></li>
-                    <li><a href="#" title="">IMAGES</a></li>
-                    <li><a href="#" title="">GIFS</a></li>
-                    <li><a href="#" title="">VIDEOS</a></li>
-                    <li><a href="#" title="">NOTICIAS</a></li>
-                    <li><a href="#" title="">ENVIEI UM POST</a></li>
-                    <li><a href="#" title="">CONTATO</a></li>
-                    <li><a href="#" title="">PAGINAS</a></li>
+                    <?php $args = array(
+                        'container'      => '',
+                        'fallback_cb'    => '',
+                        'echo'           => true,
+                        'link_before'    => '',
+                        'link_after'     => '',
+                        'items_wrap'     => '%3$s',
+                        'theme_location' => 'menu_topo',
+                    );
+                    wp_nav_menu($args); ?>
                 </ul>
             </nav><!--(header_menu)-->
-           
+
     </header><!--(main_header)-->
 <div class="content">
-    
