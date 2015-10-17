@@ -1,0 +1,61 @@
+/*
+Theme Name: PAINEL
+Version: 2.1
+Author: <a href="http://www.arieltuczynski.com" title="Desenvolvido Por ArielTuczynski">ArielTuczynski</a>
+Author URL: http://www.arieltuczynski.com
+Tags: Sistema
+*/
+
+/*--(Geral Reset)---*/
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, th, td,a ,span { margin:0; padding:0;}
+*{ padding:0; margin:0; -webkit-transition: all 250ms ease 15ms; -moz-transition: all 250ms ease 15ms; -o-transition: all 250ms ease 15ms; transition: all 250ms ease 15ms;}
+body{  color:#333;}
+img{ border:0; }
+.clear{ clear:both !important;}
+a{ text-decoration:none; color:#333;}
+a:hover{ text-decoration:underline;}
+ul li{ list-style:none;}
+*:focus {outline: none;}
+textarea{ width:688px !important; height:100px !important; padding:10px !important; margin:2px 0 !important;}
+input{ width:688px !important; padding:10px !important; margin:2px 0 !important; border:1px dotted #CCC !important;}
+.btn-true{ width:690px !important; background:#090 !important; border:1px solid #060 !important; color:#FFF !important;}
+.btn-true:hover{ background:#096 !important;  color:#FFF !important;}
+.btn-reset{ width:690px !important; background:#F03 !important; border:1px solid #F00 !important; color:#FFF !important;}
+.btn-reset:hover{ background:#F76A75 !important;}
+.msg{ position:fixed; z-index:88; top:130px; left:0; right:0; margin:0 auto; width:400px; padding:10px; background:#A8FFAA; border:1px solid #060; font:bold 22px 'Dosis',Arial, Helvetica, sans-serif; color:#090; text-align:center;}
+input:focus,textarea:focus{ border:1px solid #090 !important;}
+
+.ative{ display:block;}
+.inative{ display:none;}
+.center-margin{ width:750px; margin:0 auto !important;}
+.areas{ background:#D9FCD8;  border:1px solid #090 !important; }
+
+/*--(TOPO)---*/
+.isset-wrap{ background:#F8F8F8; width:750px;  margin-top:15px; border:2px solid #F0F0F0; float:left; clear:both !important; }
+.isset-top{ width:750px; float:left; background:#F2F2F2; height:80px; margin-bottom:5px;  position:relative; border-bottom:1px solid #CCC;}
+.isset-top-logo{ float:left; width:180px; height:65px; background:url(images/logohover.png) no-repeat; margin:10px 0 0 40px;}
+.isset-top-logo:hover{ background:url(images/logo.png) no-repeat;}
+.isset-top-redes{ float:right; width:194px; height:54px;  margin:10px 10px 0 0;}
+.isset-top-redes ul a.face{ float:left; width:56px; height:54px; background-image:url(images/redes-rodape.png);}
+.versao{ position:absolute; right:370px; top:20px;  font:bold 14px 'Dosis',Arial, Helvetica, sans-serif; color:#000; }
+.isset-top-redes ul a.blog{ float:left; width:56px; height:54px; background-image:url(images/redes-rodape.png); background-position:-139px 0; margin-left:40px;}
+.isset-top-redes ul a.face:hover{ transform:rotate(360deg); -webkit-transform:rotate(360deg); -o-transform:rotate(360deg); -moz-transform:rotate(360deg);  -ms-transform:rotate(360deg);}
+.isset-top-redes ul a.blog:hover{ transform:rotate(360deg); -webkit-transform:rotate(360deg); -o-transform:rotate(360deg); -moz-transform:rotate(360deg);  -ms-transform:rotate(360deg);}
+/*--(TOPO)---*/
+
+/*--(CONTENT)---*/
+.cont-isset{ float:left; background:#EAEAEA; width:710px; margin:5px 10px; padding:10px; }
+.config-isset{ width:660px; font:bold 22px 'Dosis',Arial, Helvetica, sans-serif; color:#FFF; background: #333 url(images/settings.png) no-repeat left; padding:5px 0 5px 50px; margin:0 0 5px 0;} 
+.area{ width:688px; float:left; margin:5px 0 5px 0; border:1px dotted #CCC; padding-bottom:6px; background:#F5F5F5; padding:10px;}
+.area:hover{ background:#D9FCD8;  border:1px solid #090 !important; }
+.area h3{ float:left;  font:bold 15px Arial, Helvetica, sans-serif; color:#666; background:url(images/lifebuoy.png) no-repeat left; padding-left:20px; margin:0 0 0 3px;}
+.area small{  float:left; margin:0 0 0 5px;}
+h3.textarea{  float:left;  font:bold 15px Arial, Helvetica, sans-serif; color:#666; background:url(images/text.png) no-repeat left; padding-left:20px; margin:0 0 0 3px;}
+
+.ver{ float:right; width:25px; height:25px; background:url(images/gear.png) no-repeat; cursor:pointer;}
+
+
+/*--(FOOTER)---*/
+.isset-rodape{ float:left; width:710px; margin:5px 10px; background:#EAEAEA; padding:10px;  font:11px Tahoma, Geneva, sans-serif; color:#333; }
+/*--(FOOTER)---*/
+
